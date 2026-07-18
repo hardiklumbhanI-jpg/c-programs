@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+
+    printf("Enter first number: ");
+    scanf("%d", &a);
+
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
+    printf("Addition       = %d\n", a + b);
+    printf("Subtraction    = %d\n", a - b);
+    printf("Multiplication = %d\n", a * b);
+
+    if (b != 0)
+        printf("Division       = %.2f\n", (float)a / b);
+    else
+        printf("Division is not possible.\n");
+
+    return 0;
+}
